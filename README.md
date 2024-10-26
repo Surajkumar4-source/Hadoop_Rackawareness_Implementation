@@ -2,9 +2,9 @@
 # Hadoop Rack Awareness Configuration
 
 ## Overview
-Rack awareness is a Hadoop feature that understands the physical layout of nodes in the cluster, optimizing data placement and retrieval for enhanced performance, fault tolerance, and network efficiency.
+Rack awareness in Hadoop is an essential feature that allows the cluster to understand the physical topology of nodes across different racks. By using this configuration, you can implement rack awareness to improve data placement strategies, resulting in optimized performance, fault tolerance, and efficient network usage within the Hadoop ecosystem.
 
-### Why Rack Awareness?
+### Why Use Rack Awareness?
 - **Data Locality**: Minimizes network traffic by storing data closer to the compute nodes processing it.
 - **Fault Tolerance**: Ensures data redundancy by placing replicas on different racks.
 - **Network Traffic Management**: Reduces cross-rack data transfer, improving performance.
